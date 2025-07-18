@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5b2c6f;
+  margin: 0%;
+  flex: none;
+  margin: 0;
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  position: sticky;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+.nav_links {
+  display: flex;
+  justify-content: right;
+  align-items: center; /* Space between links */
+}
+
+.nav_links a {
+  color: #be9e69;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.nav_links a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #5b2c6f;
+  color: white;
+  padding: 40px 20px 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section a,
+.footer-section li {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  color: #ddd;
+  margin-top: 30px;
+}
+.sectionHero {
+  align-items: center;
+  padding-left: 10px;
+  justify-content: center;
+}
+.sectionHero-h1 {
+  color: #5b2c6f;
+}
+.sectionHero p {
+  color: #4a235a;
+}
+.ulOverview {
+  color: #4a235a;
+  list-style: square;
+}
